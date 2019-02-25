@@ -578,6 +578,38 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
+    - target: {fileID: 859541748, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Radius
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541748, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Center.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Center.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Center.z
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_Height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 859541747, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1345813056, guid: 6c52f3deb93395f4abe5770542479439, type: 3}
       propertyPath: m_Name
       value: Hellephant
