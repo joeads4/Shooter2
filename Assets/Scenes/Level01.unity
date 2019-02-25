@@ -6497,6 +6497,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1947714659}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1947714667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947714660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c63be2a8918c741863160b9d9da122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePerShot: 20
+  timeBetweenBullets: 0.15
+  range: 100
 --- !u!1001 &2080487288
 PrefabInstance:
   m_ObjectHideFlags: 0
