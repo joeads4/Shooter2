@@ -182,7 +182,7 @@ GameObject:
   m_Layer: 0
   m_Name: HellephantSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -887,6 +887,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1216820926}
+  restartDelay: 5
 --- !u!95 &954652034
 Animator:
   serializedVersion: 3
@@ -984,7 +985,7 @@ GameObject:
   m_Layer: 0
   m_Name: ZombearSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1528,7 +1529,7 @@ GameObject:
   m_Layer: 0
   m_Name: ZombunnySpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1667,6 +1668,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1216820926, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1499096569}
+    - target: {fileID: 1216820926, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1291944243}
     - target: {fileID: 1947714666, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1711,14 +1720,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1216820926, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
-      propertyPath: healthSlider
-      value: 
-      objectReference: {fileID: 1499096569}
-    - target: {fileID: 1216820926, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
-      propertyPath: damageImage
-      value: 
-      objectReference: {fileID: 1291944243}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3605974e82325046a1b330364d0fbd0, type: 3}
 --- !u!4 &1947714666 stripped
