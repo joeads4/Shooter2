@@ -9,7 +9,7 @@ public class SlowTime : MonoBehaviour
  
     void Update()
     {
-
+        
         if (Input.GetButtonDown("Fire2"))
         {
             timeSlowed = !timeSlowed; // toggles timeSlowed at each click
