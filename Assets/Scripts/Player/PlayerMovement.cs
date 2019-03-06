@@ -25,6 +25,11 @@ public class PlayerMovement : MonoBehaviour
         Move(h, v);
         Turning();
         Animating(h, v);
+
+        if (SlowTime.timeSlowed == true)
+        {
+            anim.speed = 0f;
+        }
     }
 
     void Move(float h, float v)
@@ -64,11 +69,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Animating(float h, float v)
     {
-        if (SlowTime.timeSlowed == true)
-        {
-            return;
-        }
-
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
     }
