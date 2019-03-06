@@ -29,6 +29,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Move(float h, float v)
     {
+        if (SlowTime.timeSlowed == true) 
+        {
+            return;
+        }
+    
         movement.Set(h, 0f, v);
 
         movement = movement.normalized * speed * Time.deltaTime;
@@ -38,6 +43,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Turning()
     {
+        if (SlowTime.timeSlowed == true)
+        {
+            return;
+        }
+
         Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit floorHit;
@@ -54,6 +64,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Animating(float h, float v)
     {
+        if (SlowTime.timeSlowed == true)
+        {
+            return;
+        }
+
         bool walking = h != 0f || v != 0f;
         anim.SetBool("IsWalking", walking);
     }

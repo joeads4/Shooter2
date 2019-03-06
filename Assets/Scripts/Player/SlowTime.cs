@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class SlowTime : MonoBehaviour
 {
-    private bool timeSlowed = false;
+    public static bool timeSlowed = false;
  
     void Update()
     {
 
         if (Input.GetButtonDown("Fire2"))
         {
-            timeSlowed = !timeSlowed; // toggles onoff at each click
+            timeSlowed = !timeSlowed; // toggles timeSlowed at each click
 
             if (timeSlowed)
             {
