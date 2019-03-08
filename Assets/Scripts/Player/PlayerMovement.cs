@@ -28,7 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (SlowTime.timeSlowed == true)
         {
-            anim.speed = 0f;
+            anim.speed = 0f;  //stops the animator controller when time is slowed
+            // need to be able to trigger death animation while time is slowed
         }
     }
 
